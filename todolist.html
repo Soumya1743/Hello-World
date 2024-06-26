@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(229, 215, 255);
+        }
+        #container{
+            width: 700px;
+            height: 200px;
+            border: 3px solid white;
+            border-radius: 10px;
+            margin-left: 420px;
+            margin-top: 200px;
+            background-color: rgba(92, 4, 255, 0.342);
+            box-shadow: 1px 3px 3px 1px rgb(77, 88, 245);
+        }
+        #task{
+            width: 500px;
+            height: 35px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: rgb(229, 215, 255);
+            color: black;
+            margin-left: 95px;
+            margin-top: 65px;
+        }
+        #btn{
+            width: 120px;
+            height: 35px;
+            border: 1px solid black;
+            background-color: rgb(229, 215, 255);
+            color: black;
+            border-radius: 10px;
+            margin-left: 0px;
+            margin-top: 100px;
+        }
+        #div-list{
+            margin-top: 10px;
+            padding-top: 18px;
+            padding-left: 10px;
+            width: 700px;
+            height: 50px;
+            border: 3px solid white;
+            border-radius: 10px;
+            margin-left: 420px;
+            background-color: rgb(229, 215, 255);
+        }
+        #delete{
+            margin-left: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 120px;
+            height: 35px;
+            right: auto;
+        }
+        #date, #date1{
+            margin-left: 30px;
+            margin-top: 100px;
+            height: 31px;
+            width: 120px;
+            border-radius: 10px;
+            color: black;
+            margin-right: 10px;
+        }
+        .inputFolder{
+            margin-top: -70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="task" placeholder="Add a Task">
+        <div class="inputFolder">
+            <input type="date" id="date">
+            <button id="btn">Add</button>
+            
+        </div>
+        
+    </div>
+    <div id="taskList">
+
+    </div>
+</body>
+<script src="./todolist.js"></script>
+</html>
